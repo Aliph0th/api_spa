@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom';
 import Main from './pages/Main';
 import NotFound from './pages/NotFound';
 import User from './pages/User';
@@ -63,6 +63,13 @@ const router = createBrowserRouter([
                         }
                      }
                   ]
+               },
+               {
+                  path: '/api_spa',
+                  element: <Navigate to="/" />,
+                  handle: {
+                     disableCrumbs: true
+                  }
                },
                {
                   path: '*',
