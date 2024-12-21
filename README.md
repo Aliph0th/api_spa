@@ -2,7 +2,7 @@
 
 ![screenshot](https://i.imgur.com/bRrX3hJ.png)
 
-This project demonstrates single page application via `react-router-dom`. All data for this application fetching from JSONplaceholder with aid of `tanstack query`
+This project demonstrates single page application via `react-router-dom` and github-actions. All data for this application fetching from JSONplaceholder with aid of `tanstack query`
 
 ## Technology stack
    - React
